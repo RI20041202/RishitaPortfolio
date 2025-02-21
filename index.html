@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rishita Alluri</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .profile-pic {
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            animation: fadeInLeft 1.5s ease-in-out;
+        }
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .hero-text {
+            flex: 1;
+            text-align: center;
+        }
+        .hero-text h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <img src="Rishi.jpeg" alt="Rishita Alluri" class="profile-pic">
+        <div class="hero-text">
+            <h2>Welcome to My Portfolio</h2>
+            <p>A glimpse into my journey, work, and aspirations.</p>
+            <a href="about.html" class="btn">SEE MORE</a>
+        </div>
+    </section>
+</body>
+</html>

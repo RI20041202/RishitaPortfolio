@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rishita Alluri</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .profile-pic {
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            animation: fadeInLeft 1.5s ease-in-out;
+        }
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .hero-text {
+            flex: 1;
+            text-align: right;
+        }
+        .hero-text h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .animated-img {
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="education">
+        <img src="VIT-AP.jpeg" alt="VIT-AP" class="animated-img">
+        <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2><br>
+        <h3>August 2021 - June 2025</h3><br>
+        <h4>Computer Science with Business Systems(CGPA of 9.03)</h4>
+        <img src="Tirumala.jpeg" alt="Tirumala" class="animated-img">
+        <h2>Tirumala Educational Institutions</h2><br>
+        <h3>June 2019 - March 2021</h3><br>
+        <h4>Intermediate(CGPA of 9.82)</h4>
+        <img src="SRI.jpeg" alt="Other Education" class="animated-img">
+        <h2>Sri Chaitanya Techno School</h2><br>
+        <h3>June 2018 - March 2019</h3><br>
+        <h4>SSC(CGPA of 9.7)</h4>
+    </section>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Rishita Alluri</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .profile-pic {
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            animation: fadeInLeft 1.5s ease-in-out;
+        }
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .hero-text {
+            flex: 1;
+            text-align: right;
+        }
+        .hero-text h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .animated-img {
+            width: 250px;
+            height: 350px;
+            border-radius: 10px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RISHITA ALLURI</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="experience">
+        <h2>My Experience</h2>
+        <img src="SMartInternz.jpeg" alt="SmartBridge" class="animated-img">
+        <p>Collaborated with Smart Internz as AI and ML Intern and implemented responsive Machine learning features showcasing a improvement in user experience and performance.<br>
+            Actively participated in optimizing project performance, enhancing the overall user experience, and obtained 72% improvement in site responsiveness.
+            </p>
+        <img src="AWS.jpeg" alt="AWS" class="animated-img">
+        <p>Motivated learning with a solid understanding of AWS Cloud technology components.<br>
+            Currently,seeking an internship opportunity in any organization . Proficient in customizing gaining practical experience in the field of AWS Solutions development.
+            </p>
+    </section>
+</body>
+</html>
